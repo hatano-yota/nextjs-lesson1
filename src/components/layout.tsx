@@ -18,10 +18,10 @@ const Navi = () => {
   );
 };
 
-export const Layout = ({ children }) => {
-  return (
-    // <LayoutWrapper>
-    // <Navi>{/* <BodyWrapper>{children}</BodyWrapper> */}</Navi>
-    // </LayoutWrapper>
-  );
-};
+// export const Layout = ({ children }) => {
+//   return (
+//     <LayoutWrapper>
+//     <Navi><BodyWrapper>{children}</BodyWrapper></Navi>
+//     </LayoutWrapper>
+//   );
+// };
