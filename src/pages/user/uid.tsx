@@ -9,17 +9,17 @@ export default function UserPage(props) {
     if (!uid) {
       return;
     }
-    getUser(uid).then((user) => {
-      setUser(user);
-    });
+    // getUser(uid).then((user) => {
+    //   setUser(user);
+    // });
   }, []);
   if (!uid) {
-    return <ErrorComponent />;
+    // return <ErrorComponent />;
   }
-  if (!user) [
-    return <Loading />
-  ]
-//   return <UserInfo user={user}>
+  // if (!user) [
+  //   return <Loading />
+  // ]
+  //   return <UserInfo user={user}>
 }
 
 // error ??
