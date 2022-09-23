@@ -21,7 +21,7 @@ const Navi = () => {
 export const Layout = ({ children }) => {
   return (
     // <LayoutWrapper>
-    <Navi>{/* <BodyWrapper>{children}</BodyWrapper> */}</Navi>
+    // <Navi>{/* <BodyWrapper>{children}</BodyWrapper> */}</Navi>
     // </LayoutWrapper>
   );
 };
